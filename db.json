@@ -1,0 +1,75 @@
+{
+"packages":[
+    {
+        "id":1,
+        "resort" :"famous south africa resort",
+        "payment":"13 Days From KSH 120,000 Per person",
+        "country":"SOUTH AFRICA",
+        "description":"Looking For Exclusivity?Explore The Rich Tapestry Of Culture,Landscapes And Wildlife On This Ultra-lux Safari.Indulge in SOUTH AFRICA",
+        "img_url":"images/img-12.jpg"
+    },
+    {
+        "id":2,
+        "resort":"SYCHELLES EXPERIENCE",
+        "payment":"13 Days From KSH 120,000 Per person",
+        "country":"SYCHELLES",
+        "description":"Looking For Exclusivity?Explore The Rich Tapestry Of Culture,Landscapes And Wildlife On This Ultra-lux Safari.Indulge in SYCHELLES",
+        "img_url":"images/img-11.jpg"
+    },
+{
+    "id":3,
+    "resort":"INCOMPARABLE DESERT SAFARI",
+    "payment":"13 Days From KSH 120,000 Per person",
+    "country":"MOROCCO",
+    "description":"Looking For Exclusivity?Explore The Rich Tapestry Of Culture,Landscapes And Wildlife On This Ultra-lux Safari.Indulge in MOROCCO",
+    "img_url":"images/img-10.jpg"
+}
+],
+"destinations":[
+    {
+        "resort":"7 Days Mount Kilimanjaro Trekking - Lemosho Route",
+        "payment":" 9 days from KSH 30,000 per person",
+        "country":"TANZANIA",
+        "description": "Rising majestically above the African plains, the 20,000-foot Mt. Kilimanjaro has beckoned to climbers since the first recorded summit in 1889. Here are 10 interesting facts to help inspire your own future summit: 10. Mount Kilimanjaro is the tallest mountain on the African conti nent and the highest f ree-standing mountain in the world.",  
+        "img_url":"images/kilimanjaro.avif"
+
+    },
+    {
+        "resort":"KENYA CHRONICLES",
+        "payment":" 9 days from KSH 30,000 per person",
+        "country":"KENYA",
+        "description":"Discover Kenya on an adventure packed journey to Nairobi , Samburu, and the Maasai Mara and see wildlife found only north of Africa’s equator.",
+        "img_url":"images/kenya.avif"
+    },
+    {
+        "resort":"TANZANIA EXPLORER",
+        "payment":"11 days from ksh 54000 per person",
+        "country":"TANZANIA",
+        "description":"Explore Tanzania’s prolific parks in comf ort and style on this eleven day photographic safari. The vast plains of the Serengeti and the world-renowned Ngorongoro Crater are just two of the areas you will encounter Africa’s wildllife , while on expertly guided safari drives.",
+        "img_url": "images/tanzania2.avif"
+    },
+
+    {
+        "resort":"WONDERS OF EGYPT",
+        "payment":"10 days from 78,000 per person",
+        "country":"EGYPT",
+        "description":"From Cairo to Aswan and throughout your lu xurious four-night Nile cruise, sample the monument s to Egypt's ancient royalty and enjoy shared insights from an expert Egyptologist.",
+        "img_url":"images/egypt.avif"
+    },
+    {
+        "resort":"SOUTH AFRICA AT LEISURE",
+        "payment":"10 days from KSH 687000 per person",
+        "country":"SOUTH AFRICA",
+        "description":"Slow down and delve deeper into the best of South Africa. Enjoy an unhurried look at Cape Town’s coast, Winelands, and culture. Then thrill at spotting prolific wildlife at the malaria-free Shamwari Private Game Reserve.",
+        "img_url":"images/leisure.avif"
+     },
+        
+        {
+            "resort":"SOUTHERN AFRICAN HIGHLIGHTS",
+            "payment":"11 days from KSH 45000 per person",
+            "country":"SOUTH AFRICA|ZIMBAMBWE & VICTORIA FALLS",
+            "description":"This safari showcases the can't miss highlights of Southern Africa. Explore Cape Town from Table Mountain to the Cape Peninsula. Spot leopards, lions, zebras and more on safari drives in a Kruger National Park area private reserve. Be awed by the majesty of Victoria Falls.",
+            "img_url":"images/falls.avif"
+        }      
+    ]
+}
