@@ -34,3 +34,14 @@ register.addEventListener('click' ,() =>{
 
  let loadMoreBtn = document.querySelector('.packages .load-more .btn');
 let currentItem = 3;
+
+
+//apponting the boxes to be displayed
+
+loadMoreBtn.onclick = () =>{
+    let boxes = [...document.querySelectorAll('.packages .box-container .box')];
+    //loop for the boxes
+ 
+    for (var i = currentItem; i < currentItem + 3; i++){
+       boxes[i].style.display = 'inline-block';
+    };
