@@ -20,3 +20,14 @@ menu.onclick = () =>{
    menu.classList.toggle('fa-times');
    navbar.classList.toggle('active');
 }
+
+register.addEventListener('click' ,() =>{
+    registrationForm.classList.add('active')
+ })
+ registerFormClose.addEventListener('click' ,() => {
+    registrationForm.classList.remove('active')
+  })
+  loginFormClose.addEventListener('click', () =>{
+    loginForm.classList.remove('active');
+    
+ });
