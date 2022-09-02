@@ -31,3 +31,6 @@ register.addEventListener('click' ,() =>{
     loginForm.classList.remove('active');
     
  });
+
+ let loadMoreBtn = document.querySelector('.packages .load-more .btn');
+let currentItem = 3;
