@@ -27,6 +27,15 @@ register.addEventListener('click' ,() =>{
  registerFormClose.addEventListener('click' ,() => {
     registrationForm.classList.remove('active')
   })
+
+  var swiper = new Swiper(".home-slider", {
+    loop:true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+ });
+
   loginFormClose.addEventListener('click', () =>{
     loginForm.classList.remove('active');
     
@@ -45,3 +54,11 @@ loadMoreBtn.onclick = () =>{
     for (var i = currentItem; i < currentItem + 3; i++){
        boxes[i].style.display = 'inline-block';
     };
+
+
+    //loop 
+   currentItem += 3;
+   if(currentItem >= boxes.length){
+      loadMoreBtn.style.display = 'none';
+   }
+}
