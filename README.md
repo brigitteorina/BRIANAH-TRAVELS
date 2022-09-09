@@ -1,10 +1,10 @@
 # BRIANAH-TRAVELS
 
-AUTHOR
+AUTHOR_
 Brigitte Orina 
 Project 001
 
-LANGUAGES USED
+LANGUAGES USED_
 HTML
 CSS
 JS
@@ -14,5 +14,5 @@ This is where one can see the various camping offers that we have and can use th
 They can also see the areas that we offer our travelling services to and book us for such trips.
 There are also travelling offers in the site that aim at making everyone enjoy their vacations despite their financial constraints
 
-LICENCE
+LICENCE_
 Moringa School
