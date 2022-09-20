@@ -100,3 +100,33 @@ function packages(){
       packagesContainer.innerHTML += packageHTML;
    });
 }
+
+packages();
+
+fetch('./db.json')
+.then(response => response.json())
+.then(data => {
+   let destination = data.destinations;
+   console.log(destination);
+   let destinationContainer = document.querySelector('.packages .box-container');
+   let destinationHTML = '';
+   destination.forEach(destination => {
+      destinationHTML += `
+      <div class="box">
+         <div class="image">
+            <img src="${destination.img_url}" alt="">
+         </div>
+         <div class="content">
+            <h3>${destination.resort}</h3>
+            <p>
+            <p>${destination.payment}</p>
+            <h3>${destination.country}</h3>
+            ${destination.description}
+            <a href="#" class="btn">Read More</a>
+         </div>
+      </div>
+      `;
+   });
+   destinationContainer.innerHTML += destinationHTML;
+});
+
