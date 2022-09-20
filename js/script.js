@@ -102,7 +102,7 @@ function packages(){
    });
 }
 
-// packages();
+packages();
 
 function destinations(){
    fetch('./db.json')
@@ -134,6 +134,8 @@ function destinations(){
    });
 }
 
+destinations();
+
 document.querySelector('.book-form').addEventListener('submit', (e) => {
    e.preventDefault();
    let name = e.target.name.value;
@@ -144,6 +146,10 @@ document.querySelector('.book-form').addEventListener('submit', (e) => {
    let guests = e.target.guests.value;
    let dateIn = e.target.arrivals.value;
    let leaving = e.target.leaving.value;
+   if (name == '' || email == '' || phone == '' || address == '' || location == '' || guests == '' || dateIn == '' || leaving == ''){
+      alert('Please fill in all fields');
+      return false;
+   }
    let data = {
       name,
       email,
@@ -166,6 +172,8 @@ document.querySelector('.book-form').addEventListener('submit', (e) => {
    bookingResponse += `Leaving Date: ${leaving}\n\n`
    bookingResponse += `We will get back to you shortly.\n\n`
    bookingResponse += `Regards,\n`
-   bookingResponse += `Travel Agency`
+   bookingResponse += `**Brianah Travels**`
    alert(bookingResponse);
+   //clear form
+   e.target.reset();
 });
